@@ -1,0 +1,41 @@
+# Next.js
+.next/
+.out/
+.vercel
+.vercel_build_output/
+.env*.local
+.env
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+dist/
+build/
+
+# Clerk (never commit secrets)
+.clerk/
+
+# Supabase local (if you use it)
+.supabase/
+
+# Stripe / Lemon Squeezy
+.stripe/
+.lemon/
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing & misc
+coverage/
+.nyc_output/
+.svelte-kit/
