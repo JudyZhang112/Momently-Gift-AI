@@ -25,7 +25,7 @@ type Props = {
   sponsored?: boolean;
 };
 
-export function ProductSection({ title, subtitle, tabs, defaultCount = 3, sponsored }: Props) {
+export default function ProductSection({ title, subtitle, tabs, defaultCount = 3, sponsored }: Props) {
   const { saved, isSaved, toggleSave } = useSavedProducts();
   const [activeTab, setActiveTab] = useState(tabs[0]?.key ?? "");
   const [cache, setCache] = useState<Record<string, { list: Product[]; index: number }>>(() => {

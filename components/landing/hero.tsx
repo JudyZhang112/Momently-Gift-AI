@@ -22,7 +22,7 @@ const promptChips = [
   "Safe gift (no risk)",
 ];
 
-export function Hero() {
+export default function Hero() {
   const [prompt, setPrompt] = useState(
     "A birthday gift for a 20-year-old girl, budget $50, likes photography"
   );
