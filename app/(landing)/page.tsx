@@ -1,6 +1,6 @@
-import Hero from "@/components/landing/hero";
-import ProductSection from "@/components/landing/product-section";
-import { productPools } from "@/data/product-pools";
+import Hero from "../../components/landing/hero";
+import ProductSection from "../../components/landing/product-section";
+import { productPools } from "../../data/product-pools";
 
 export default function LandingPage() {
   return (
