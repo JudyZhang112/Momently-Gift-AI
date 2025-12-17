@@ -31,7 +31,10 @@
     ]
   },
   "include": [
-    "next-env.d.ts",
+    "app",
+    "components",
+    "data",
+    "lib",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
